@@ -14,6 +14,11 @@
 		DFECA55519E801ED007C0A1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFECA55419E801ED007C0A1A /* Images.xcassets */; };
 		DFECA55819E801ED007C0A1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFECA55619E801ED007C0A1A /* LaunchScreen.xib */; };
 		DFECA56419E801EE007C0A1A /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFECA56319E801EE007C0A1A /* User_Data_Challenge_SolutionTests.m */; };
+		DFECA56F19E80213007C0A1A /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = DFECA56E19E80213007C0A1A /* UserData.m */; };
+		DFECA57519E80434007C0A1A /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFECA57119E80434007C0A1A /* person1.jpeg */; };
+		DFECA57619E80434007C0A1A /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFECA57219E80434007C0A1A /* person2.jpeg */; };
+		DFECA57719E80434007C0A1A /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFECA57319E80434007C0A1A /* person3.jpg */; };
+		DFECA57819E80434007C0A1A /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DFECA57419E80434007C0A1A /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,12 @@
 		DFECA55D19E801EE007C0A1A /* User Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFECA56219E801EE007C0A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFECA56319E801EE007C0A1A /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		DFECA56D19E80213007C0A1A /* UserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserData.h; path = ../UserData.h; sourceTree = "<group>"; };
+		DFECA56E19E80213007C0A1A /* UserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserData.m; path = ../UserData.m; sourceTree = "<group>"; };
+		DFECA57119E80434007C0A1A /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		DFECA57219E80434007C0A1A /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		DFECA57319E80434007C0A1A /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		DFECA57419E80434007C0A1A /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +94,9 @@
 			children = (
 				DFECA54B19E801ED007C0A1A /* AppDelegate.h */,
 				DFECA54C19E801ED007C0A1A /* AppDelegate.m */,
-				DFECA54E19E801ED007C0A1A /* ViewController.h */,
-				DFECA54F19E801ED007C0A1A /* ViewController.m */,
-				DFECA55119E801ED007C0A1A /* Main.storyboard */,
-				DFECA55419E801ED007C0A1A /* Images.xcassets */,
-				DFECA55619E801ED007C0A1A /* LaunchScreen.xib */,
+				DFECA57919E80C19007C0A1A /* Model */,
+				DFECA57A19E80C2E007C0A1A /* View */,
+				DFECA57B19E80C48007C0A1A /* Controller */,
 				DFECA54719E801ED007C0A1A /* Supporting Files */,
 			);
 			path = "User Data Challenge Solution";
@@ -96,6 +105,7 @@
 		DFECA54719E801ED007C0A1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFECA57019E80434007C0A1A /* PersonImages */,
 				DFECA54819E801ED007C0A1A /* Info.plist */,
 				DFECA54919E801ED007C0A1A /* main.m */,
 			);
@@ -117,6 +127,46 @@
 				DFECA56219E801EE007C0A1A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFECA57019E80434007C0A1A /* PersonImages */ = {
+			isa = PBXGroup;
+			children = (
+				DFECA57119E80434007C0A1A /* person1.jpeg */,
+				DFECA57219E80434007C0A1A /* person2.jpeg */,
+				DFECA57319E80434007C0A1A /* person3.jpg */,
+				DFECA57419E80434007C0A1A /* person4.jpeg */,
+			);
+			name = PersonImages;
+			path = "14029482492014-04-15_15-40-38__PersonImages";
+			sourceTree = "<group>";
+		};
+		DFECA57919E80C19007C0A1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFECA56D19E80213007C0A1A /* UserData.h */,
+				DFECA56E19E80213007C0A1A /* UserData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DFECA57A19E80C2E007C0A1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFECA55119E801ED007C0A1A /* Main.storyboard */,
+				DFECA55419E801ED007C0A1A /* Images.xcassets */,
+				DFECA55619E801ED007C0A1A /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DFECA57B19E80C48007C0A1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DFECA54E19E801ED007C0A1A /* ViewController.h */,
+				DFECA54F19E801ED007C0A1A /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFECA57719E80434007C0A1A /* person3.jpg in Resources */,
+				DFECA57519E80434007C0A1A /* person1.jpeg in Resources */,
 				DFECA55319E801ED007C0A1A /* Main.storyboard in Resources */,
 				DFECA55819E801ED007C0A1A /* LaunchScreen.xib in Resources */,
+				DFECA57819E80434007C0A1A /* person4.jpeg in Resources */,
 				DFECA55519E801ED007C0A1A /* Images.xcassets in Resources */,
+				DFECA57619E80434007C0A1A /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +275,7 @@
 			files = (
 				DFECA55019E801ED007C0A1A /* ViewController.m in Sources */,
 				DFECA54D19E801ED007C0A1A /* AppDelegate.m in Sources */,
+				DFECA56F19E80213007C0A1A /* UserData.m in Sources */,
 				DFECA54A19E801ED007C0A1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
